@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "tourism-reginald-be",
       script: "npx",
-      args: "vite preview --port 9053 --host 0.0.0.0",
+      args: "vite preview --port 9097 --host 0.0.0.0",
       env: {
         NODE_ENV: "production",
       },
