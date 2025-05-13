@@ -5,7 +5,7 @@ dotenv.config();
 
 const app = express();
 
-const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8072;
+const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 5173;
 
 // Serve static files from the "build" directory
 app.use(express.static(path.join(__dirname, "../build")));
