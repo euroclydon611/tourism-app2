@@ -28,6 +28,7 @@ import AdminHiddengems from "./pages/admin-hiddengems";
 import HiddengemDetail from "./pages/HiddengemDetails";
 
 function Router() {
+  console.log("import.meta.env.VITE_PUBLIC_SERVER_URI",import.meta.env.VITE_PUBLIC_SERVER_URI)
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
