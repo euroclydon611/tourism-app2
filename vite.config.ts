@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 
-const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8070;
+const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 9097;
 
 
 // https://vite.dev/config/
